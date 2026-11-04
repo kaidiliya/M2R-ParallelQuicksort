@@ -1,0 +1,116 @@
+
+== parallel time / sequential time (above 1 = parallel is slower) ==
+                                          experiment   test    size  ratio
+1            Original - 5 sizes, 5 reps, fixed order Test 1     100 425.82
+2            Original - 5 sizes, 5 reps, fixed order Test 1    1000 149.61
+3            Original - 5 sizes, 5 reps, fixed order Test 1   10000  18.79
+4            Original - 5 sizes, 5 reps, fixed order Test 1  100000   3.68
+5            Original - 5 sizes, 5 reps, fixed order Test 1 1000000   3.45
+6            Original - 5 sizes, 5 reps, fixed order Test 2     100 411.72
+7            Original - 5 sizes, 5 reps, fixed order Test 2    1000 109.84
+8            Original - 5 sizes, 5 reps, fixed order Test 2   10000  21.86
+9            Original - 5 sizes, 5 reps, fixed order Test 2  100000   3.42
+10           Original - 5 sizes, 5 reps, fixed order Test 2 1000000   3.30
+11           Original - 5 sizes, 5 reps, fixed order Test 3     100 473.22
+12           Original - 5 sizes, 5 reps, fixed order Test 3    1000 123.28
+13           Original - 5 sizes, 5 reps, fixed order Test 3   10000  23.49
+14           Original - 5 sizes, 5 reps, fixed order Test 3  100000   3.85
+15           Original - 5 sizes, 5 reps, fixed order Test 3 1000000   3.30
+16        More sizes - 10 sizes, 5 reps, fixed order Test 1     100 458.40
+17        More sizes - 10 sizes, 5 reps, fixed order Test 1     300 165.67
+18        More sizes - 10 sizes, 5 reps, fixed order Test 1    1000 102.24
+19        More sizes - 10 sizes, 5 reps, fixed order Test 1    3000  39.83
+20        More sizes - 10 sizes, 5 reps, fixed order Test 1   10000  23.66
+21        More sizes - 10 sizes, 5 reps, fixed order Test 1   30000   7.60
+22        More sizes - 10 sizes, 5 reps, fixed order Test 1  100000   3.65
+23        More sizes - 10 sizes, 5 reps, fixed order Test 1  300000   3.60
+24        More sizes - 10 sizes, 5 reps, fixed order Test 1 1000000   3.22
+25        More sizes - 10 sizes, 5 reps, fixed order Test 1 3000000   2.75
+26        More sizes - 10 sizes, 5 reps, fixed order Test 2     100 420.45
+27        More sizes - 10 sizes, 5 reps, fixed order Test 2     300 260.18
+28        More sizes - 10 sizes, 5 reps, fixed order Test 2    1000  78.31
+29        More sizes - 10 sizes, 5 reps, fixed order Test 2    3000  60.83
+30        More sizes - 10 sizes, 5 reps, fixed order Test 2   10000  25.53
+31        More sizes - 10 sizes, 5 reps, fixed order Test 2   30000   7.69
+32        More sizes - 10 sizes, 5 reps, fixed order Test 2  100000   3.46
+33        More sizes - 10 sizes, 5 reps, fixed order Test 2  300000   3.52
+34        More sizes - 10 sizes, 5 reps, fixed order Test 2 1000000   3.15
+35        More sizes - 10 sizes, 5 reps, fixed order Test 2 3000000   3.10
+36        More sizes - 10 sizes, 5 reps, fixed order Test 3     100 392.63
+37        More sizes - 10 sizes, 5 reps, fixed order Test 3     300 276.30
+38        More sizes - 10 sizes, 5 reps, fixed order Test 3    1000 149.38
+39        More sizes - 10 sizes, 5 reps, fixed order Test 3    3000  69.88
+40        More sizes - 10 sizes, 5 reps, fixed order Test 3   10000  24.06
+41        More sizes - 10 sizes, 5 reps, fixed order Test 3   30000   9.24
+42        More sizes - 10 sizes, 5 reps, fixed order Test 3  100000   3.36
+43        More sizes - 10 sizes, 5 reps, fixed order Test 3  300000   2.44
+44        More sizes - 10 sizes, 5 reps, fixed order Test 3 1000000   2.75
+45        More sizes - 10 sizes, 5 reps, fixed order Test 3 3000000   2.77
+46  More repetitions - 5 sizes, 30 reps, fixed order Test 1     100 390.60
+47  More repetitions - 5 sizes, 30 reps, fixed order Test 1    1000  85.37
+48  More repetitions - 5 sizes, 30 reps, fixed order Test 1   10000  18.48
+49  More repetitions - 5 sizes, 30 reps, fixed order Test 1  100000   3.35
+50  More repetitions - 5 sizes, 30 reps, fixed order Test 1 1000000   3.39
+51  More repetitions - 5 sizes, 30 reps, fixed order Test 2     100 381.72
+52  More repetitions - 5 sizes, 30 reps, fixed order Test 2    1000 144.07
+53  More repetitions - 5 sizes, 30 reps, fixed order Test 2   10000  16.95
+54  More repetitions - 5 sizes, 30 reps, fixed order Test 2  100000   3.35
+55  More repetitions - 5 sizes, 30 reps, fixed order Test 2 1000000   3.39
+56  More repetitions - 5 sizes, 30 reps, fixed order Test 3     100 400.20
+57  More repetitions - 5 sizes, 30 reps, fixed order Test 3    1000 129.45
+58  More repetitions - 5 sizes, 30 reps, fixed order Test 3   10000  17.30
+59  More repetitions - 5 sizes, 30 reps, fixed order Test 3  100000   3.40
+60  More repetitions - 5 sizes, 30 reps, fixed order Test 3 1000000   3.44
+61      Random order - 5 sizes, 5 reps, random order Test 1     100 442.69
+62      Random order - 5 sizes, 5 reps, random order Test 1    1000 134.98
+63      Random order - 5 sizes, 5 reps, random order Test 1   10000  21.08
+64      Random order - 5 sizes, 5 reps, random order Test 1  100000   3.24
+65      Random order - 5 sizes, 5 reps, random order Test 1 1000000   3.42
+66      Random order - 5 sizes, 5 reps, random order Test 2     100 485.83
+67      Random order - 5 sizes, 5 reps, random order Test 2    1000 134.77
+68      Random order - 5 sizes, 5 reps, random order Test 2   10000  23.72
+69      Random order - 5 sizes, 5 reps, random order Test 2  100000   3.57
+70      Random order - 5 sizes, 5 reps, random order Test 2 1000000   3.28
+71      Random order - 5 sizes, 5 reps, random order Test 3     100 434.77
+72      Random order - 5 sizes, 5 reps, random order Test 3    1000 131.08
+73      Random order - 5 sizes, 5 reps, random order Test 3   10000  20.72
+74      Random order - 5 sizes, 5 reps, random order Test 3  100000   3.42
+75      Random order - 5 sizes, 5 reps, random order Test 3 1000000   3.09
+76     All changes - 10 sizes, 30 reps, random order Test 1     100 427.32
+77     All changes - 10 sizes, 30 reps, random order Test 1     300 274.69
+78     All changes - 10 sizes, 30 reps, random order Test 1    1000 131.20
+79     All changes - 10 sizes, 30 reps, random order Test 1    3000  55.98
+80     All changes - 10 sizes, 30 reps, random order Test 1   10000  22.35
+81     All changes - 10 sizes, 30 reps, random order Test 1   30000   8.32
+82     All changes - 10 sizes, 30 reps, random order Test 1  100000   3.58
+83     All changes - 10 sizes, 30 reps, random order Test 1  300000   3.03
+84     All changes - 10 sizes, 30 reps, random order Test 1 1000000   3.02
+85     All changes - 10 sizes, 30 reps, random order Test 1 3000000   2.86
+86     All changes - 10 sizes, 30 reps, random order Test 2     100 430.75
+87     All changes - 10 sizes, 30 reps, random order Test 2     300 253.17
+88     All changes - 10 sizes, 30 reps, random order Test 2    1000 132.11
+89     All changes - 10 sizes, 30 reps, random order Test 2    3000  51.39
+90     All changes - 10 sizes, 30 reps, random order Test 2   10000  20.31
+91     All changes - 10 sizes, 30 reps, random order Test 2   30000   7.53
+92     All changes - 10 sizes, 30 reps, random order Test 2  100000   3.60
+93     All changes - 10 sizes, 30 reps, random order Test 2  300000   3.31
+94     All changes - 10 sizes, 30 reps, random order Test 2 1000000   3.28
+95     All changes - 10 sizes, 30 reps, random order Test 2 3000000   3.21
+96     All changes - 10 sizes, 30 reps, random order Test 3     100 398.27
+97     All changes - 10 sizes, 30 reps, random order Test 3     300 218.43
+98     All changes - 10 sizes, 30 reps, random order Test 3    1000 116.91
+99     All changes - 10 sizes, 30 reps, random order Test 3    3000  61.62
+100    All changes - 10 sizes, 30 reps, random order Test 3   10000  20.59
+101    All changes - 10 sizes, 30 reps, random order Test 3   30000   8.47
+102    All changes - 10 sizes, 30 reps, random order Test 3  100000   3.47
+103    All changes - 10 sizes, 30 reps, random order Test 3  300000   3.32
+104    All changes - 10 sizes, 30 reps, random order Test 3 1000000   3.30
+105    All changes - 10 sizes, 30 reps, random order Test 3 3000000   3.07
+
+== Average width of the 95% CI, in % of the mean (smaller = more precise) ==
+                                        experiment avg_ci_percent
+1          Original - 5 sizes, 5 reps, fixed order           9.90
+2       More sizes - 10 sizes, 5 reps, fixed order          11.63
+3 More repetitions - 5 sizes, 30 reps, fixed order           4.35
+4     Random order - 5 sizes, 5 reps, random order          12.51
+5    All changes - 10 sizes, 30 reps, random order           4.98
